@@ -1,3 +1,3 @@
-import { GenerateDiagrams } from "./lib/GenerateDiagrams.js"
+import { BarChart } from './lib/BarChart.js'
 
-export { GenerateDiagrams };
+export { BarChart };

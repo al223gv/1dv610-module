@@ -1,12 +1,12 @@
 export interface CanvasDataType {
   canvasDimensions: {
-    width: number
-    height: number,
+    width: number | undefined
+    height: number | undefined,
   },
   backgroundColor: string
 }
 
 export interface CanvasDimensionsType {
-  width: number
-  height: number,
+  width: number | undefined
+  height: number | undefined,
 }
